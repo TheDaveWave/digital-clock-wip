@@ -21,9 +21,11 @@ footer {
     position: relative;
     border: 5px solid red;
     background: none;
+    height: 90vh;
 }
 
 .clock-housing {
     background: black;
-    padding: 50px;
+    height: 100%;
+    width: 100%;
 }
