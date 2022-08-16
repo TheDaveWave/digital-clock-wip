@@ -10,5 +10,13 @@ body {
 }
 
 .box {
+    position: relative;
     border: 10px solid red;
+}
+
+.clock-housing {
+    position: absolute;
+    background-color: black;
+    margin: 50 50 50 50;
+    padding: 20;
 }
