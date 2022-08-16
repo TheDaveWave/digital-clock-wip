@@ -39,10 +39,13 @@ footer {
 .button-box {
     background: rgb(54, 50, 50);
     border-top: 5px solid black;
+    padding: 5px;
     height: 25%;
     width: 100%;
 }
 
 .button-container {
+    height: 100%;
     display: flex;
+    justify-content: space-evenly;
 }
