@@ -26,6 +26,12 @@ footer {
 
 .clock-housing {
     background: black;
+    border: 1px solid white;
     height: 100%;
     width: 100%;
+}
+
+.clock-display-box {
+    background: rgb(96, 88, 88);
+    height: 75%;
 }
