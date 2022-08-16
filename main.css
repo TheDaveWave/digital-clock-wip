@@ -42,3 +42,7 @@ footer {
     height: 25%;
     width: 100%;
 }
+
+.button-container {
+    display: flex;
+}
