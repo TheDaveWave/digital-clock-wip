@@ -86,9 +86,11 @@ button:active {
 }
 
 #digital-display {
-    padding: 10px 50px;
+    padding: 50px;
     background: black;
     height: 100%;
     color: red;
     font-family: 'Orbitron';
+    text-align: center;
+    font-size: 200%;
 }
