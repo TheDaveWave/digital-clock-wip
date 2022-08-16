@@ -39,7 +39,7 @@ footer {
 .button-box {
     background: rgb(54, 50, 50);
     border-top: 5px solid black;
-    padding: 5px;
+    padding: 10px;
     height: 25%;
     width: 100%;
 }
@@ -48,4 +48,16 @@ footer {
     height: 100%;
     display: flex;
     justify-content: space-evenly;
+    gap: 10px;
+}
+
+button {
+    flex-grow: 1;
+    border-radius: 5%;
+    font-size: 200%;
+    background: grey;
+    text-align: center;
+}
+button:active {
+    
 }
