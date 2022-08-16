@@ -53,11 +53,19 @@ footer {
 
 button {
     flex-grow: 1;
+    height: 90%;
+    outline: none;
     border-radius: 5%;
     font-size: 200%;
     background: grey;
     text-align: center;
 }
+
+button:hover {
+    background: rgb(102, 102, 102);
+}
+
 button:active {
-    
+    background: rgb(83, 83, 83);
+    transform: translateY(4px);
 }
