@@ -35,3 +35,10 @@ footer {
     background: rgb(96, 88, 88);
     height: 75%;
 }
+
+.button-box {
+    background: rgb(54, 50, 50);
+    border-top: 5px solid black;
+    height: 25%;
+    width: 100%;
+}
