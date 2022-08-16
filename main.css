@@ -9,3 +9,6 @@ body {
     display: block;
 }
 
+.box {
+    border: 10px solid red;
+}
