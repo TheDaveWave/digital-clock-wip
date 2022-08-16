@@ -5,18 +5,17 @@
 }
 
 body {
-    background-color: rgb(179, 177, 177);
+    background: rgb(179, 177, 177);
     display: block;
 }
 
 .box {
     position: relative;
-    border: 10px solid red;
+    border: 5px solid red;
+    background: none;
 }
 
 .clock-housing {
-    position: absolute;
-    background-color: black;
-    margin: 50 50 50 50;
-    padding: 20;
+    background: black;
+    padding: 50px;
 }
