@@ -85,7 +85,7 @@ button:active {
     position: relative;
 }
 
-.digital-display {
+#digital-display {
     padding: 10px 50px;
     background: black;
     height: 100%;
