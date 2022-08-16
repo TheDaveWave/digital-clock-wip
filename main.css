@@ -9,6 +9,14 @@ body {
     display: block;
 }
 
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
 .box {
     position: relative;
     border: 5px solid red;
