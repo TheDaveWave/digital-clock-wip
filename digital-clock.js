@@ -1,6 +1,5 @@
 window.onload = function() {
     setInterval(myTime,1000);
-    // myTime();
 }
 
 function myTime() {
