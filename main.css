@@ -77,10 +77,16 @@ button:active {
     height: 25%;
 }
 
-.clock-digital-display {
+.clock-display-housing {
     background: rgb(54, 50, 50);
     padding: 50px;
     height: 50%;
     width: 100%;
     position: relative;
+}
+
+.digital-display {
+    padding: 10px 50px;
+    background: black;
+    height: 100%;
 }
