@@ -1,3 +1,5 @@
-let d = new Date();
 
-console.log(d.toLocaleTimeString());
+function myTime() {
+    let d = new Date();
+    document.getElementsByClassName("digital-display").innerHTML = d.toLocaleTimeString();
+}
