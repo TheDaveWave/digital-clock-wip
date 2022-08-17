@@ -1,12 +1,7 @@
 window.onload = function() {
-    // document.getElementById("btn-on").addEventListener('click', startClock);
     btnClick();
     btnOffClick();
 }
-
-// function startedClock() {
-//     setInterval(myTime,1000);
-// }
 
 function myTime() {
     const d = new Date();
