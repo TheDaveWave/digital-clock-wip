@@ -8,6 +8,13 @@ function myTime() {
     document.getElementById("digital-display").innerHTML = d.toLocaleTimeString();
 }
 
+function clearMyTime() {
+    let el = document.getElementById("digital-display");
+    // document.getElementById("digital-display").textContent = "";
+    // el.textContent = "";
+    el.innerHTML = "";
+}
+
 let myTimer;
 
 function startClock() {
@@ -15,10 +22,9 @@ function startClock() {
    return myTimer;
 }
 
-//fix this!
 function stopClock() {
     window.clearInterval(myTimer);
-    return myTimer;
+    // return myTimer;
 }
 
 function btnClick() {
@@ -32,6 +38,6 @@ function btnOffClick() {
     let e = document.getElementById('btn-off');
     if(e) {
         e.addEventListener('click',stopClock);
-        document.getElementById("digital-display").innerHTML = " ";
+        clearMyTime();
     }
 }
