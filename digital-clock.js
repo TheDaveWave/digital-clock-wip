@@ -8,6 +8,8 @@ function myTime() {
     document.getElementById("digital-display").innerHTML = d.toLocaleTimeString();
 }
 
+
+//fix this!
 function clearMyTime() {
     let el = document.getElementById("digital-display");
     // document.getElementById("digital-display").textContent = "";
@@ -38,6 +40,6 @@ function btnOffClick() {
     let e = document.getElementById('btn-off');
     if(e) {
         e.addEventListener('click',stopClock);
-        clearMyTime();
+        clearMyTime(); //needs fixing
     }
 }
