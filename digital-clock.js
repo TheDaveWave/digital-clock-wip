@@ -1,6 +1,7 @@
 window.onload = function() {
     // document.getElementById("btn-on").addEventListener('click', startClock);
     btnClick();
+    btnOffClick();
 }
 
 // function startedClock() {
@@ -27,20 +28,15 @@ function stopClock() {
 
 function btnClick() {
     let e1 = document.getElementById('btn-on');
-    // let e2 = document.getElementById('btn-off');
-    // let btnClicked = false;
     if(e1) {
         e1.addEventListener('click',startClock);
-        // btnClicked = true;
     } 
-    // if (btnClicked) {
-    //     e2.addEventListener('click',stopClock);
-    // }
 }
 
 function btnOffClick() {
     let e = document.getElementById('btn-off');
     if(e) {
         e.addEventListener('click',stopClock);
+        document.getElementById("digital-display").innerHTML = " ";
     }
 }
