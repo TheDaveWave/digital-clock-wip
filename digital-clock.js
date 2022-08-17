@@ -9,11 +9,8 @@ function myTime() {
 }
 
 
-//fix this!
 function clearMyTime() {
     let el = document.getElementById("digital-display");
-    // document.getElementById("digital-display").textContent = "";
-    // el.textContent = "";
     el.innerHTML = "";
 }
 
@@ -26,6 +23,7 @@ function startClock() {
 
 function stopClock() {
     window.clearInterval(myTimer);
+    clearMyTime();
     // return myTimer;
 }
 
@@ -40,6 +38,5 @@ function btnOffClick() {
     let e = document.getElementById('btn-off');
     if(e) {
         e.addEventListener('click',stopClock);
-        clearMyTime(); //needs fixing
     }
 }
